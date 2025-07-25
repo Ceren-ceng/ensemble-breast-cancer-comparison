@@ -106,9 +106,6 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 #### Random Forest
 
-markdown
-Kopyala
-Düzenle
           precision    recall  f1-score   support
 
        0      0.97      0.98      0.98        71
@@ -118,9 +115,6 @@ accuracy                          0.96       114
 macro avg 0.97 0.96 0.96 114
 weighted avg 0.97 0.96 0.96 114
 
-shell
-Kopyala
-Düzenle
 
 #### AdaBoost
 
@@ -134,9 +128,6 @@ accuracy                          0.96       114
 macro avg 0.97 0.95 0.96 114
 weighted avg 0.97 0.96 0.96 114
 
-shell
-Kopyala
-Düzenle
 
 #### XGBoost
 
@@ -183,7 +174,7 @@ AdaBoost: Basit veride ve outlier azsa iyi çalışır, noise fazlaysa düşer
 XGBoost: Karmaşık veri, büyük set, yüksek başarı isteniyorsa önerilir; ayar yapmak önemlidir
 
 🤝 Katkı ve Geliştirme
-Bu repo öğrenmek ve kendi veri setlerinizi test etmek için uygundur. PR atabilirsiniz, parametrelerle oynayabilir, yeni metrik veya grafik ekleyebilirsiniz.
+Bu repo öğrenmek ve kendi veri setlerinizi test etmek için uygundur. PR atabilirsiniz, parametrelerle oynayabilir, yeni metrik veya grafik ekleyebilirsiniz. ##Ceren Mencütekin
 
 
 
