@@ -124,9 +124,7 @@ Düzenle
 
 #### AdaBoost
 
-markdown
-Kopyala
-Düzenle
+
           precision    recall  f1-score   support
 
        0      0.97      0.97      0.97        71
@@ -142,9 +140,7 @@ Düzenle
 
 #### XGBoost
 
-markdown
-Kopyala
-Düzenle
+
           precision    recall  f1-score   support
 
        0      0.97      0.99      0.98        71
@@ -154,9 +150,6 @@ accuracy                          0.97       114
 macro avg 0.97 0.97 0.97 114
 weighted avg 0.97 0.97 0.97 114
 
-yaml
-Kopyala
-Düzenle
 
 ---
 
