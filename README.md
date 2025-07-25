@@ -24,18 +24,18 @@ Ensemble Learning, birden fazla makine öğrenmesi modelinin birleştirilerek (�
 
 ## 🏷️ Kullanılan Algoritmaların Temel Farkları
 
-### 🌲 Random Forest (Bagging)
+## 🌲 Random Forest (Bagging)
 - Çok sayıda karar ağacı oluşturur
 - Her bir ağaç farklı örneklerle ve/veya farklı özelliklerle eğitilir
 - Sonuç, çoğunluk oyuyla verilir (klasik “demokrasi”)
 - Aşırı öğrenmeye karşı dirençlidir
 
-### 🚀 AdaBoost (Boosting)
+## 🚀 AdaBoost (Boosting)
 - Zayıf öğrenicileri (genellikle tek katmanlı karar ağaçları) sıralı eğitir
 - Her yeni model, bir öncekinin yanlışlarını düzeltmeye çalışır
 - Yanlış tahmin edilen örneklere daha çok ağırlık verir
 
-### ⚡ XGBoost (Boosting – Advanced)
+## ⚡ XGBoost (Boosting – Advanced)
 - Boosting yaklaşımının en gelişmiş, hızlı ve regularize edilmiş hali
 - Eksik veriyle başa çıkabilir, paralel çalışır, overfitting’i azaltır
 - Genellikle en iyi doğruluk oranlarına ulaşır
@@ -49,7 +49,7 @@ Ensemble Learning, birden fazla makine öğrenmesi modelinin birleştirilerek (�
 - **Özellik Sayısı:** 30 + 1 hedef sütunu (`diagnosis`)
 - **Hedef Değişken:** `diagnosis` (‘M’ = Malignant/Kötü Huylu, ‘B’ = Benign/İyi Huylu)
 
-### Örnek Sütunlar:
+## Örnek Sütunlar:
 - `radius_mean`, `texture_mean`, `perimeter_mean`, `area_mean`, `smoothness_mean` ...
 - “Unnamed: 32” gibi alakasız/eksik sütunlar silindi
 
@@ -102,9 +102,9 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 ---
 
-### 📈 Classification Reports
+## 📈 Classification Reports
 
-#### Random Forest
+## Random Forest
 
           precision    recall  f1-score   support
 
@@ -116,7 +116,7 @@ macro avg 0.97 0.96 0.96 114
 weighted avg 0.97 0.96 0.96 114
 
 
-#### AdaBoost
+## AdaBoost
 
 
           precision    recall  f1-score   support
@@ -129,7 +129,7 @@ macro avg 0.97 0.95 0.96 114
 weighted avg 0.97 0.96 0.96 114
 
 
-#### XGBoost
+## XGBoost
 
 
           precision    recall  f1-score   support
@@ -144,7 +144,7 @@ weighted avg 0.97 0.97 0.97 114
 
 ---
 
-### 🧑‍🔬 Sonuçların Yorumlanması ve F1-Score Değerlendirmesi
+## 🧑‍🔬 Sonuçların Yorumlanması ve F1-Score Değerlendirmesi
 
 - **XGBoost** en yüksek accuracy ve en dengeli f1-score'u verdi.  
 - **Random Forest** ve **AdaBoost** da çok yakın ve güvenilir sonuçlar verdi.
